@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="icon" href="imgs/icon.png">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400;1,800&display=swap">
+</head>
+    <body>
+        <!-- star-setting-box -->
+        <div class="settings-box">
+            <div class="toggle-settings">
+                <i class="fa fa-gear"></i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h4>Colors</h4>
+                    <ul class="colors-list">
+                        <li class="active" data-color="#FF9800"></li>
+                        <li data-color="#11915e"></li>
+                        <li data-color="#0b2c4a"></li>
+                        <li data-color="#3a178a"></li>
+                        <li data-color="#aa1887"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Random Backgrounds</h4>
+                    <div class="random-backgrounds">
+                        <span class="yes active" data-background="yes">Yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Show Bullets</h4>
+                    <div class="bullets-option">
+                        <span class="yes active" data-display="show">Yes</span>
+                        <span class="no" data-display="hide">No</span>
+                    </div>
+                </div>
+                <button class="reset-options">Reset Options</button>
+            </div>
+        </div>
+        <!-- end-setting-box -->
+        <!-- Start Nav Bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".header-area">
+                <div class="tooltip">First Page</div>
+            </div>
+            <div class="bullet" data-section=".about-us">
+                <div class="tooltip">About Us‍</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+                <div class="tooltip">Our Skills</div>
+            </div>
+            <div class="bullet" data-section=".gallary">
+                <div class="tooltip">Our Gallary</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip">Time-Line</div>
+            </div>
+            <div class="bullet" data-section=".features">
+                <div class="tooltip">Feature</div>
+            </div>
+            <div class="bullet" data-section=".testimonials">
+                <div class="tooltip">Test-Imonials</div>
+            </div>
+        </div>
+        <!-- End Nav Bullets -->
+
+        <!-- stat-langing-page -->
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header-area">
+                    <a href="/" class="logo">Portfolio</a>
+                    <!-- <div class="links-container">
+                        <ul class="links ">
+                            <li><a href="#" class="active ">Abount</a></li>
+                            <li><a href="# " class=" ">Service</a></li>
+                            <li><a href="# " class=" ">Product</a></li>
+                            <li><a href="contact.html" class=" ">Contact</a></li>
+                        </ul>
+                        <div class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="introduction-text ">
+                <img src="imgs/me/photo.jpg" style="height:350px; border-radius: 5%; border: 5px solid var(--main-color);">
+                <h1>"Mohamed <span style="font-size: 50px;font-family: cursive;font-weight: bold;">Django Developer</span> Sayed"</h1>
+                <p style="color:aliceblue;font-weight: bold;">A highly motivated junior backend developer passionate about creating efficient and innovative web solutions
+                using Django with a strong foundation in designing and developing web applications. I am confident in my
+                ability to write clean, efficient code and collaborate effectively with cross-functional teams.</p>
+            </div>
+        </div>
+        <!-- end-langing-page -->
+        <!-- Start About Us‍ -->
+        <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+                    <h2>About Me</h2>
+                    <p>Junior Web Developer specializing in Backend development .Experienced with all stages of the development cycle for
+                    dynamic web projects .Well – versed in numerous programming languages including C # , HTML , Python OOP ,
+                     C , CSS , SQLite3 . Strong background in project management and customer relations.</p>
+                </div>
+                <div class="image-box">
+                    <img src="imgs/about-us.jfif" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End About uU‍ -->
+        <!-- Start Education Us‍ -->
+        <div class="container">
+            <div class="education-us">
+                <div class="info-box">
+                    <h2>Education</h2>
+                    <h4>GPA 2.80</h4>
+                    <a href="https://www.facebook.com/fcismans?mibextid=ZbWKwL">Faculty of Computer & Information Sciences - Helwan  University</a>
+                    <b>Relevant Courseworks:</b>
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Database Management Systems</li>
+                        <li>Operating Systems</li>
+                        <li>Cloud Computing</li>
+                        <li>IT</li>
+                    </ul>
+                </div>
+                <div class="image-box">
+                    <img src="imgs/study.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End Education Us‍ -->
+        <!-- Start our Skilld -->
+        <div class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-box">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-progress">
+                        <span data-progress="100%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Django</div>
+                    <div class="skill-progress">
+                        <span data-progress="100%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">OOP</div>
+                    <div class="skill-progress">
+                        <span data-progress="100%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Rest Framework</div>
+                    <div class="skill-progress">
+                        <span data-progress="100%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Git & Github</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Automation</div>
+                    <div class="skill-progress">
+                        <span data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Project Managment</div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Data Structures & Algorithms</div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <!-- End our Skilld -->
+        <!-- Start Gallary -->
+        <div class="gallary">
+            <div class="container">
+                <h2>Gallary</h2>
+                <div class="images-box">
+                        <img src="imgs/gallary/1.png" alt="Facebook Automation">
+                        <img src="imgs/gallary/2.png" alt="Artech Dashboard">
+                        <img src="imgs/gallary/3.png" alt="Downloader">
+                        <img src="imgs/gallary/4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End Gallary -->
+        <!-- Start TimeLine -->
+        <div class="timeline">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="timeline-content">
+                    <div class="year">2023</div>
+                    <div class="clearfix"></div>
+                        <div class="left">
+                            <div class="content">
+                                <h3>Artech</h3>
+                                <p>Automatic assessment of artistic colleges aptitude test using deep learning</p>
+                                <a href="hhttps://github.com/mohamedsayed124">Github</a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="right">
+                            <div class="content">
+                                <h3>To Do List</h3>
+                                <p>Simple to do list API</p>
+                                <a href="https://github.com/mohamedsayed124">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="left">
+                            <div class="content">
+                                <h3>DjGreeny eCommerce</h3>
+                                <p>E-Commerce Website (shoping)</p>
+                                <a href="https://github.com/mohamedsayed124">Github</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- End TimeLine -->
+        <!-- <div class="gallary">
+            <div class="container">
+                <div class="images-box">
+                    <img src="/imgs/certificates/1.png" alt="Facebook Automation">
+                    <a href="https://www.hackerrank.com/certificates/01e0ef9816fa" target="_blank"><h4>Python (Basic)</h4></a>
+                </div>
+            </div>
+        </div> -->
+        <!-- Start Features -->
+        <!-- <div class="gallary">
+            <h2>Certificates</h2>
+            <div class="container">
+                <div class="images-box">
+                    <img src="/imgs/certificates/1.png" alt="">
+                    <img src="/imgs/certificates/2.jpg" alt="">
+                    <img src="/imgs/certificates/3.jpg" alt="">
+                    <img src="/imgs/certificates/4.jpg" alt="">
+                    <img src="/imgs/certificates/5.jpg" alt="">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div> -->
+        <!-- End Features -->
+        <!-- Start Features -->
+        <div class="features">
+            <h2>Certificates</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <div class="images-box">
+                        <img src="imgs/certificates/1.png" alt="">
+                    </div>
+                    <a href="https://maharatech.gov.eg/mod/customcert/verify_certificate.php?contextid=162686&code=rbdX1Gkh04&qrcode=1" target="_blank"><h4> Database Fundamentals</h4></a>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/certificates/2.png" alt="">
+                    <a href="https://maharatech.gov.eg/mod/customcert/verify_certificate.php?contextid=66873&code=J5ks6Zcrng&qrcode=1" target="_blank"><h4>Python for Beginners</h4></a>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/certificates/3.png" alt="">
+                    <a href="https://maharatech.gov.eg/mod/customcert/verify_certificate.php?contextid=66873&code=J5ks6Zcrng&qrcode=1" target="_blank"><h4>The Python and Django Learning Guide</h4></a>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/certificates/4.png" alt="">
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/wNge9cjzNTXD2acrv_MBA4MnZTNFEoJZGnk_ZctAEfzeQJij6G46d_1734219587487_completion_certificate.pdf" target="_blank"><h4>Operations Job Simulation</h4></a>
+                </div>
+                <!-- <div class="feat-box">
+                    <img src="imgs/certificates/5.jpg" alt="">
+                    <a href="" target="_blank"><h4>Operations Job Simulation</h4></a>
+                </div> -->
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- End Features -->
+        <!-- Start Testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="ts-box">
+                    <div class="person-info">
+                        <h4>Python Instructor</h4>
+                        <a href="#" target="_blank">with my team in badroom</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- End Testimonials -->
+        <!-- Start Contact Us -->
+        <div class="contact">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Contact Us -->
+        <!-- Start Footer -->
+        <div class="footer">
+            <ul class="social-network social-circle">
+                <li><a class="icoLinkedin" href="https://www.linkedin.com/in/mohamedsayed124221/" title="Linkedin" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="icoTwitter" href="https://x.com/Mohamed46641" title="Twitter" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="icoFacebook" href="https://www.facebook.com/mohamed.sayed.mohamed00" title="Facebook" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="icoInstagram" href="https://www.instagram.com/moh__sayed/" title="Instagram" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="icoGithub" href="https://github.com/mohamedsayed124/" title="GitHub" target="_blank"><i
+                            class="fa-brands fa-github"></i></a></li>
+                <li><a class="icoWhatsapp" href="https://api.whatsapp.com/send/?phone=201147813303&text=&app_absent=0" title="Whatsapp" target="_blank"><i
+                            class="fa-brands fa-whatsapp"></i>
+                <li><a class="icoEmail" href="mailto:msayed12472@gmail.com" title="Email" target="_blank"><i 
+                            class="fa-solid fa-envelope"></i>
+            </ul>
+        </div>
+        <div class="footer">Created With Love By Mohamed Sayed</div>
+        <!-- End Footer -->
+        <script src="js/master.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
